@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<h3>Singleton By Injection : @ViewBag.SingletonByInjection</h3>
+<h3>Singleton : @ViewBag.Singleton</h3>
+<h3>Singleton From View : @_singleton.GetHashCode()</h3>
+<h3>Uid : @_singleton.Uid</h3>
+<hr />
+<h3>Scoped By Injection : @ViewBag.ScopedByInjection</h3>
+<h3>Scoped : @ViewBag.Scoped</h3>
+<h3>Scoped From View : @_scoped.GetHashCode()</h3>
+<h3>Uid : @_scoped.Uid</h3>
+<hr />
+<h3>Transient By Injection : @ViewBag.TransientByInjection</h3>
+<h3>Transient : @ViewBag.Transient</h3>
+<h3>Transient From View : @_transient.GetHashCode()</h3>
+<h3>Uid : @_transient.Uid</h3>
